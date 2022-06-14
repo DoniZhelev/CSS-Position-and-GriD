@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(238, 238, 238);
+    font-family: Georgia, serif;
+
+
+}
+
+h3 {
+    font-size: 1em;
+
+}
+
+.card {
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    margin: auto;
+    border: 2px solid;
+
+
+
+}
+
+.card .media {
+    height: 250px;
+    position: relative;
+
+}
+
+.card .media img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+
+}
+
+.card .content {
+    padding: 30px;
+    position: relative;
+}
+
+a {
+    background-color: rgb(0, 153, 0);
+    text-decoration: none;
+    color: white;
+    padding: 8px 20px;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
